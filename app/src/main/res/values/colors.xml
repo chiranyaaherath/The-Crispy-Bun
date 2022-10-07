@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color" />
+    <color name="bgcolormain">#D0000000</color>
+    <color name="btn1">#FFB300</color>
+    <color name="tvcolor">#FFFEFE</color>
+    <color name="tvcolor2">#FAF8F8</color>
+    <color name="cbcolor">#FCFAFA</color>
+    <color name="ibdelete">#F51504</color>
+    <color name="deletebgcolor">#0D000000</color>
+    <color name="totalcolor">#FFAB40</color>
+    <color name="btn4clolor">#FB8C00</color>
+    <color name="vbgcolor">#2FFFFFFF</color>
+
+    <color name="btnSign">#B88B04</color>
+    <color name="clrAccount">#000000</color>
+    <color name="clrSign">#000000</color>
+    <color name="emailclr">#FAF8F7</color>
+    <color name="pwclr">#FAF8F7</color>
+    <color name="bgclr">#56FFFFFF</color>
+    <color name="Nameclr">#FFFFFF</color>
+    <color name="btnReg">#FB8C00</color>
+
+
+    <color name="bgcolor1">#D0000000</color>
+    <color name="ibbgcolor">#000000</color>
+    <color name="btn2">#FFB300</color>
+    <color name="fl2">#FDFFD740</color>
+    <color name="tvbgcolor3">#B4B1B1</color>
+    <color name="tvnamebgcolor5">#FFFFFF</color>
+    <color name="llformbackground">#23000000</color>
+    <color name="tvdropdowncolor1">#FFFFFF</color>
+    <color name="llcolor1" />
+    <color name="llcolor2">#2FFFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="bgClrMain">#63332A29</color>
+    <color name="vbgClrMain">#37FFFFFF</color>
+    <color name="tcMSGclr">#FFFFFF</color>
+    <color name="btnCLR">#FFB300</color>
+    <color name="mainBGclr">#D0000000</color>
+    <color name="tvTopicbg">#FDFFD740</color>
+    <color name="flCLR">#FFAB40</color>
+    <color name="btnPOrderclr">#FF6E40</color>
+    <color name="btnMainclr">#FFD180</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tvsize11">18sp</dimen>
+    <dimen name="tvsixe2">18sp</dimen>
+    <dimen name="tvsize5">18sp</dimen>
+    <dimen name="tv3size">18sp</dimen>
+    <dimen name="tv4size">18sp</dimen>
+    <dimen name="tv5size">18sp</dimen>
+    <dimen name="tv7size">18sp</dimen>
+    <dimen name="tv10size">18sp</dimen>
+    <dimen name="tv11size">18sp</dimen>
+    <dimen name="tv12size">18sp</dimen>
+    <dimen name="tv13size">18sp</dimen>
+    <dimen name="tv14size">18sp</dimen>
+    <dimen name="tv15size">18sp</dimen>
+    <dimen name="tv15size2">25sp</dimen>
+    <dimen name="button4color">23sp</dimen>
+    <dimen name="tv15size3">23sp</dimen>
+    <dimen name="tvsize1">20sp</dimen>
+    <dimen name="tv2size">20sp</dimen>
+    <dimen name="tv6size">20sp</dimen>
+    <dimen name="tv8size">25sp</dimen>
+    <dimen name="tvsize">18sp</dimen>
+    <dimen name="yv9size">30sp</dimen>
+    <dimen name="tvcartsize">30sp</dimen>
+
+
+    <dimen name="txtSize">20sp</dimen>
+    <dimen name="TitleSize">30sp</dimen>
+
+    <dimen name="tvMainSize">50sp</dimen>
+
+    <dimen name="tv2topicsize">30sp</dimen>
+    <dimen name="tvname3">15sp</dimen>
+    <dimen name="tvname4size">15sp</dimen>
+    <dimen name="tvnamesizedelete">30sp</dimen>
+    <dimen name="tvconfirmationtextsize">23sp</dimen>
+    <dimen name="tvconfirmationsize3">18sp</dimen>
+    <dimen name="tvconfirmationsize4">21sp</dimen>
+    <dimen name="tvsearchsize1">30sp</dimen>
+
+    <dimen name="tvMSGSize">25sp</dimen>
+    <dimen name="btnSize">100dp</dimen>
+    <dimen name="btnHeight">50dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="icon">10dp</dimen>
+    <dimen name="height">10dp</dimen>
+    <dimen name="tvTopicsize">30sp</dimen>
+    <dimen name="tvSearchSize">18sp</dimen>
+    <dimen name="tvDesSize">18sp</dimen>
+    <dimen name="tvTot">23sp</dimen>
+    <dimen name="btnpOrderSize">26sp</dimen>
+    <dimen name="btnSizeLeft">50dp</dimen>
+    <dimen name="btnSizeRight">50dp</dimen>
+    <dimen name="btnSizeB">20dp</dimen>
+    <dimen name="btnwidthAdd">138dp</dimen>
+    <dimen name="btnHeightAdd">41dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+</resources>

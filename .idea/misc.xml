@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Cart/Starbursts-MADD-/app/src/main/res/layout/activity_cart_search.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new new/Starbursts-MADD-/app/src/main/res/layout/activity_cart_search.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new new/Starbursts-MADD-/app/src/main/res/layout/activity_checkout.xml" value="0.13020833333333334" />
+        <entry key="..\:/cart new new/Starbursts-MADD-/app/src/main/res/layout/activity_confirmation.xml" value="0.13020833333333334" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_cart_search.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_checkout.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_confirmation.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_confirmationpayment.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_editdelete.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_feedback.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_login.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_main.xml" value="0.17391304347826086" />
+        <entry key="..\:/cart new/Starbursts-MADD-/app/src/main/res/layout/activity_main_cart.xml" value="0.17391304347826086" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvsearchname2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor1"
+    tools:context=".searchpayment">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="404dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llbnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ibbgcolor"
+                app:srcCompat="@drawable/microsoftteams_image__15_" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ibbgcolor"
+                app:srcCompat="@drawable/microsoftteams_image__13_" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ibbgcolor"
+                app:srcCompat="@drawable/microsoftteams_image__17_" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ibbgcolor"
+                app:srcCompat="@drawable/microsoftteams_image__16_" />
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="404dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="604dp"
+        android:background="@color/fl2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tvsearch1"
+            android:layout_width="421dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/tvsearchname1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tvsearchsize1"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="354dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="339dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvsearchname1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/tvsearchntext1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            tools:text="@string/tvsearchtext2" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tvsearchname3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            tools:text="@string/tvsearchtext3" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <TextView
+            android:id="@+id/tvsearchname4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            tools:text="@string/tvsearchtext5" />
+
+        <EditText
+            android:id="@+id/editTextDate2"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/tvsearchname5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            tools:text="@string/tvsearchtext6" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tvsearchname7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/tvnamebgcolor5"
+            tools:text="@string/tvsearchtext7" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="370dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="462dp"
+            android:layout_marginBottom="227dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsearch1"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginBottom="285dp"
+        android:background="@color/btn2"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/btn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/btnsearchtext1" />
+
+    <TextView
+        android:id="@+id/tvname1history"
+        android:layout_width="318dp"
+        android:layout_height="81dp"
+        android:text="TextView"
+        android:textColor="@color/tvnamebgcolor5"
+        android:textSize="@dimen/tvconfirmationsize4"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsearch1"
+        app:layout_constraintVertical_bias="0.357"
+        tools:text="@string/tvtexthistory2" />
+
+    <Button
+        android:id="@+id/btnhistory1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/btn2"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/btn2"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname1history"
+        app:layout_constraintVertical_bias="0.34"
+        tools:text="@string/btntexthh2" />
+
+    <Button
+        android:id="@+id/btnname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/btn2"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/btn2"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname1history"
+        app:layout_constraintVertical_bias="0.34"
+        tools:text="@string/btntexthh3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolormain"
+    tools:context=".CartSearch">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmnavigation"
+        android:layout_width="410dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="1dp">
+
+        <LinearLayout
+            android:id="@+id/llbnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/microsoftteams_image__4_"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/microsoftteams_image__5_"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/microsoftteams_image__6_"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/microsoftteams_image__3_"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <EditText
+        android:id="@+id/sv"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="676dp"
+        android:background="@color/cbcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="174dp"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="676dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:text="@string/tv"
+        android:textColor="@color/cbcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="165dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="396dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="485dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chicken_burger"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="603dp"
+        android:text="@string/tv1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tvsize1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="330dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginBottom="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        app:srcCompat="@drawable/cheeeese_buuuurger"
+        android:layout_marginLeft="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="331dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857"
+        app:srcCompat="@drawable/vegatable_burger_3"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="40dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="302dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="229dp"
+        android:text="@string/tv6"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tv6size"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="61dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="500dp"
+        android:backgroundTint="@color/btn4clolor"
+        android:text="@string/btn1"
+        android:textColor="@color/cbcolor"
+        android:textSize="@dimen/tvsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="45dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="253dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="418dp"
+        android:text="@string/tv2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tv2size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="136dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="@color/btn4clolor"
+        android:text="@string/btn1"
+        android:textSize="@dimen/tv12size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="196dp"
+        android:layout_marginRight="45dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="@color/btn4clolor"
+        android:text="@string/btn1"
+        android:textColor="@color/cbcolor"
+        android:textSize="@dimen/tv10size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="52dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
